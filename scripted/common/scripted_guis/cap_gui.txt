@@ -1,0 +1,17 @@
+scripted_gui = {
+
+	enc_legitimacy = {
+		context_type = player_context
+		
+		window_name = "legitimacy_container"
+		
+		
+		effects = {
+			legitimacy_bg_click = {
+				# nothing
+			}
+		}
+	}
+
+}
+

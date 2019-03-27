@@ -1,0 +1,39 @@
+guiTypes = {
+
+
+	containerWindowType = { # legitimacy
+		name = "legitimacy_container"
+		position = { x = 885 y = 4 }
+		#Cap Counter
+		buttonType ={
+			name ="legitimacy_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=0 y=0 }
+			
+			shortcut = "ctrl+k"
+		}
+		
+		iconType = {
+			name ="cap_icon" 
+			spriteType = "GFX_cap_icon"
+			position = { x = 4 y = 2.5 }
+			scale = 0.3
+		}
+		
+		instantTextBoxType = {
+			name ="Cap Box"
+			position = { x = 12 y = 4 }
+			font = "hoi_18mbs"
+			text = "[?cap_count|0]"
+			format = center
+			maxWidth = 67
+			maxHeight = 24
+			fixedsize = yes
+
+			pdx_tooltip = "cap_TOOLTIP"
+			pdx_tooltip_delayed = "cap_TOOLTIP_DELAYED"
+		}
+
+	}
+}
+	

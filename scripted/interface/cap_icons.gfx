@@ -1,0 +1,7 @@
+spriteTypes = {
+        SpriteType = {
+            name = "GFX_cap_icon"
+ 		    texturefile = "gfx/interface/bottle_cap.dds"
+ 	    } 
+    
+}
