@@ -22,7 +22,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="Cap Box"
-			position = { x =  y = 4 }
+			position = { x = 0 y = 4}
 			font = "hoi_18mbs"
 			text = "[?cap_count|0]"
 			format = center
@@ -36,4 +36,3 @@ guiTypes = {
 
 	}
 }
-	
